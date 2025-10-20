@@ -1,6 +1,6 @@
 # Minesweeper-Game
 
-**PG90 Intro to Operating Systems - HTML5 Game App**
+**PG29 Intro to Operating Systems - HTML5 Game App**
 
 Date: 2015-10-19
 
