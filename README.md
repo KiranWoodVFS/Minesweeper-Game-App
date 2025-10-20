@@ -9,16 +9,19 @@ This project is to create a fully playable minesweeper game using JavaScript in 
 
 - minesweeper 
     - `index.html` - The main page of the webpage. Has the minesweeper game
-    - `how-to-play.html` - Has an explanation of how to play the game
-    - `style.css` - CSS file to style the webpage
-    - `images` - Images used
-    - `app.js` - Javascript file to run the app
-    - libaries
-        - `gameEngine.js` - Runs the game
-    - modules
-        - `gameBoard` - Handles the board of the game
-        - `gameInput` - Handles user input
-        - `gameLogic` - Handles the game logic
+    - webpages
+        - `how-to-play.html` - Has an explanation of how to play the game
+    - css
+        - `style.css` - CSS file to style the webpage
+    - scripts
+        - `app.js` - Javascript file to run the app
+        - libaries
+            - `gameEngine.js` - Runs the game
+        - modules
+            - `gameBoard` - Handles the board of the game
+            - `gameInput` - Handles user input
+            - `gameLogic` - Handles the game logic
+    - images - Images used
 - `layout.pdf` - Layout of the webpage
 
 **Tech Used:** HTML, CSS, JavaScript, NodeJS
