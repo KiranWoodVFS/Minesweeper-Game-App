@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+    This is the main page of the Minesweeper Game Webpage. It contains the minesweeper game that users can play.
+-->
+
+<head>
+    <title>Minesweeper Game</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="web-title">Minesweeper Game</h1>
+
+        <nav>
+            <ol class="nav-list">
+                <li><a href="index.html">Play Game</a></li>
+                <li><a href="./webpages/how-to-play.html">How To Play</a></li>
+            </ol>
+        </nav>
+    </header>
+
+    <!--Minesweeper Game-->
+    <main class="minesweeper-game">
+
+        <!--Gives Game Information-->
+        <p id="game-status"></p>
+
+        <div class="game-info">
+            <p id="flag-count">Flag Count : 40</p>
+            <p id="timer">Timer : 0</p>
+        </div>
+
+        <!--Holds all the cells of Game-->
+        <div id="board" oncontextmenu="return false;"></div>
+
+        <button id="reset-button">Reset Game</button>
+        <p id="highscore">Highscore : 0</p>
+
+        <script type="module" src="./scripts/app.js"></script>
+    </main>
+
+    <footer>
+        <div class="final-text">
+            <p>&copy;: 2025 Minesweeper Game. All Rights Reserved</p>
+            <p>Created by Kiran Wood</p>
+        </div>
+    </footer>
+</body>
+
+</html>
