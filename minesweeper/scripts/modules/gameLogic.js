@@ -22,7 +22,7 @@ class GameLogic {
 
     // Starts Game
     StartGame = index => {
-        this.statusEl.textContent = "Game Has Started. Open Cells and Place Flags";
+        this.statusEl.textContent = "Game Has Started";
 
         let surroundingCells = this.GetIndexOfSurroundingCells(index);
 

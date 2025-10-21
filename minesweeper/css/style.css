@@ -3,8 +3,8 @@
 */
 
 body {
-    font-family: sans-serif;
-    background-color: #CCCCFF;
+    font-family: monospace;
+    background-image: linear-gradient(to top, Azure, #CCCCFF);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #FDF5FF;
+    background-image: radial-gradient(circle, AliceBlue, LavenderBlush, Lavender);
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 20%;
@@ -23,7 +23,7 @@ header {
 }
 
 footer {
-    background-color: #FDF5FF;
+    background-image: radial-gradient(circle, AliceBlue, LavenderBlush, Lavender);
     box-sizing: border-box;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -34,15 +34,15 @@ footer {
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 400%;
     text-align: center;
     margin: 5%;
 }
 
 h2 {
-    font-size: 250%;
+    font-size: 300%;
     text-align: center;
-    background-color: #FDF5FF;
+    background-image: radial-gradient(circle, AliceBlue, LavenderBlush, Lavender);
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 20%;
@@ -63,7 +63,7 @@ h2 {
 }
 
     .nav-list li {
-        font-size: 150%;
+        font-size: 175%;
         background-color: #F8C8DC;
         display: inline-block;
         outline-style: solid;
@@ -75,7 +75,7 @@ h2 {
     }
 
 .minesweeper-game {
-    background-color: #FDF5FF;
+    background-image: radial-gradient(circle, AliceBlue, LavenderBlush, Lavender);
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 10%;
@@ -95,7 +95,7 @@ h2 {
 }
 
 .flex-image {
-    background-color: #FDF5FF;
+    background-image: radial-gradient(circle, AliceBlue, LavenderBlush, Lavender);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,7 +110,7 @@ h2 {
 
 .side-bar {
     font-size: 175%;
-    background-color: #FDF5FF;
+    background-image: radial-gradient(circle, AliceBlue, LavenderBlush, Lavender);
     width: 30%;
     padding: 5%;
     border-radius: 20% / 20%;
@@ -130,6 +130,7 @@ h2 {
     justify-content: center;
     padding: 0;
 }
+
     .game-info p {
         font-size: 150%;
         text-align: center;
@@ -145,6 +146,7 @@ h2 {
     }
 
 .cell {
+    font-family: cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,18 +186,20 @@ h2 {
 }
 
 #game-status {
-    font-size: 150%;
+    text-align: center;
     display: inline-block;
-    align-items: center;
     background-color: #F8C8DC;
+    width: 50%;
+    height: 10%;
     outline-style: solid;
     outline-color: black;
-    padding: 5%;
-    border-radius: 10% / 50%;
+    padding: 10%;
+    border-radius: 10% / 20%;
     margin: 5%;
 }
 
 #reset-button {
+    font-family: monospace;
     font-size: 150%;
     display: inline-block;
     align-items: center;
